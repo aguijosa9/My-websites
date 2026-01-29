@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+body {
+   /* centers the background image */
+  margin-top:0px;
+  padding: 0;
+  font-family: 'muli', sans-serif;
+  padding: 70px;
+  /* replace `school.jpg` with the actual file name of your image */
+  background-image: url("https://woub.org/wp-content/uploads/2025/03/Faye-Webster-2.jpg");
+  /* get background image from a url */
+background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position: center 50px; /* Centers horizontally, and pushes 50px down from the top */
+}
+
+h1 {
+  font-family: 'muli';
+  text-align: center;
+  color: rgb(250, 249, 255);       /* change this color if you want */
+ margin-top: 80px;
+  text-shadow: 2px 2px 4px black;
+   font-size: 60px;
+}
+
+h2 {
+  font-family: cursive;
+  text-align: center;
+  color: rgb(255, 255, 255);       /* change this color if you want */
+  margin-top: 3px;
+  text-shadow: 2px 2px 4px black;
+}
+h3{
+  font-family: cursive;
+   text-align: center;
+  color: rgb(255, 255, 255);       /* change this color if you want */
+  margin-top: 3px;
+  background-color: rgba(216, 180, 224, 0.295);   /* table background color */
+  text-shadow: 2px 2px 4px black;
+
+}
+h4 {
+  text-align: center;
+  color: rgb(128, 129, 133);       /* change this color if you want */
+  margin-top: 40px;
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+
+/* Center the table */
+table {
+  margin: 40px auto;
+  background-color: rgba(178, 129, 206, 0.623);   /* table background color */
+  border-collapse: collapse;
+  min-width: 400px;
+}
+
+/* Borders for table, header, and data cells */
+table, th, td {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+/* Table header styling */
+th {
+  padding: 10px;
+  background-color: #ddbbeb6c;
+}
+
+/* Table cell styling */
+td {
+  padding: 8px 12px;
+  text-align: left;
+}
