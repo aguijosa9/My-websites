@@ -1,0 +1,39 @@
+*{
+ padding: 0;
+ margin: 0;
+ font-size: 30px;
+ 
+  
+}
+.top-right {
+background-color: rgb(188, 140, 233);
+   padding: 10px;
+  height: 100px;
+  width: 300px;
+  border:10px solid pink;
+  margin:2px;
+}
+.top-middle {
+    background-color: rgb(188, 140, 233);
+   padding: 10px;
+  height: 100px;
+  width: 300px;
+   margin:2px;
+  border:10px solid pink;
+ position: absolute;
+    left: 40%; /* Moves the left edge to the middle of the parent */
+    top: 0;    /* Aligns the top edge to the top of the parent */
+    transform: translateX(-50%);
+}
+.top-left{
+     background-color: rgb(188, 140, 233);
+   padding: 10px;
+  height: 100px;
+  width: 300px;
+   margin:2px;
+  border:10px solid pink;
+ position: absolute;
+    left: 65%; /* Moves the left edge to the middle of the parent */
+    top: 0;    /* Aligns the top edge to the top of the parent */
+    transform: translateX(-50%);
+}
