@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: #e6d4bc;
 }
 
 main {
@@ -15,7 +16,7 @@ h1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #6e374f;
 }
 .navbar li{
     float:left;
@@ -31,4 +32,106 @@ h1 {
 
 .navbar a:hover {
     background-color: #111;
+}
+/* Center the table */
+table {
+  margin: 40px auto;
+  background-color: #cee1d8;   /* table background color */
+  border-collapse: collapse;
+  min-width: 400px;
+}
+
+/* Borders for table, header, and data cells */
+table, th, td {
+  border: 1px solid black;
+}
+
+/* Table header styling */
+th {
+  padding: 10px;
+  background-color: #6e374fc7;
+}
+
+/* Table cell styling */
+td {
+  padding: 8px 12px;
+  text-align: center;
+}
+.card{
+  background-color: #cee1d8;   /* table background color */
+   padding: 10px;
+  height: 200px;
+  width: 500px;
+  border:10px solid #6e374f;
+  margin:80px; 
+  padding-bottom: 20px;
+}
+.link-absolute {
+  position: absolute;
+  bottom: 40px; /* Positions the link 80px up from the container's bottom edge */
+  right: 10px; /* Optional: adjust horizontal position */
+}
+.card2{
+  background-color: #cee1d8;   /* table background color */
+   padding: 10px;
+  height: 200px;
+  width: 500px;
+  border:10px solid #6e374f;
+  margin:70px;
+  padding-bottom: 20px;
+}
+
+.card3{
+  background-color: #cee1d8;   /* table background color */
+   padding: 10px;
+  height: 400px;
+  width: 500px;
+  border:10px solid #6e374f;
+  margin:70px;
+  padding-bottom: 20px;
+}
+.card4{
+  background-color: #cee1d8;   /* table background color */
+   padding: 10px;
+  height: 400px;
+  width: 500px;
+  border:10px solid #6e374f;
+  margin:70px;
+  padding-bottom: 20px;
+}
+.card5{
+  background-color: #cee1d8;   /* table background color */
+
+   padding: 10px;
+  height: 400px;
+  width: 500px;
+  border:10px solid #6e374f;
+  margin:70px;
+  padding-bottom: 20px;
+}
+h2{
+text-align: center;
+}
+h3{
+text-align: center;
+color: azure;
+}
+h4{
+text-align: center;
+
+}
+.p-about{
+  text-align: center;
+  color: rgb(0, 0, 0);       /* change this color if you want */
+  margin-top: 10px;
+  background-color:#cee1d894;   /* table background color */
+  font-size: 20px;
+
+}
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* Optional: Set a width or max-width */
+  width: 50%;
 }
